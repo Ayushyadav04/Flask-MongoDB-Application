@@ -29,11 +29,11 @@ It uses the `faker` library to generate sample user data for testing purposes.**
 ## Usage
 
 - The application provides the following REST API endpoints:
-- `GET /users`: Returns a list of all users.
-- `GET /users/<id>`: Returns the user with the specified ID.
-- `POST /users`: Creates a new user with the specified data.
-- `PUT /users/<id>`: Updates the user with the specified ID with the new data.
-- `DELETE /users/<id>`: Deletes the user with the specified ID.
+- `GET /collection`: Returns a list of all users.
+- `GET /collection/<id>`: Returns the user with the specified ID.
+- `POST /collection`: Creates a new user with the specified data.
+- `PUT /collection/<id>`: Updates the user with the specified ID with the new data.
+- `DELETE /collection/<id>`: Deletes the user with the specified ID.
 
 ## Testing 
 ### Use tool Postman to send HTTP requests to the above endpoints and test the CRUD operations on the User resource.
