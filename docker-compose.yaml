@@ -8,7 +8,7 @@ services:
     ports:
       - 5000:5000
     environment:
-      FLASK_APP: new_app.py
+      FLASK_APP: flask_app_.py
       FLASK_DEBUG: 1
       MONGODB_URI: mongodb://localhost:27017/app_data
 
