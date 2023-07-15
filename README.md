@@ -20,11 +20,11 @@ It uses the `faker` library to generate sample user data for testing purposes.**
    > Set your own MongoDB URI
    > Set the Database and Collection name
 6. Now the Databse has been created and stored in provided MongoDB Collection
-7. Now open `flask_app_.py` in code editor.
-   > Set your own MongoDB URI
-   > Set the Database and Collection name
-8. Run the application
-
+7. In all files(flask_app_ , dockerfile , docker-compose) change the collection and database name and MongoDB URI also.
+8. Save all the files in same directory.
+9. Now open terminal in that directory and run the command `docker-compose up`.
+10. Now it will create two container one for flask app and other for MongoDB database and connect them.
+11. Now we can test by sending HTTP request to endpoints.
 
 ## Usage
 
