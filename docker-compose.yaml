@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    image: ayush
+    container_name: app
+    restart: always
+    ports:
+      - 5000:5000
+    environment:
+      FLASK_APP: new_app.py
+      FLASK_DEBUG: 1
+      MONGODB_URI: mongodb://localhost:27017/app_data
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - 27017:27017
+
